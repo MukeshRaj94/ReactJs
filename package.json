@@ -5,7 +5,7 @@
   "main": "App.js",
   "scripts": {
     "start": "parcel index.html",
-    "build" : "parcel build index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -26,10 +26,11 @@
     "process": "^0.11.10"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.0"
   },
-  "browserlist":[
+  "browserlist": [
     "last 2 versions"
   ]
 }
