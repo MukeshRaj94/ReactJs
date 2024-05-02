@@ -6,8 +6,7 @@ const About = () => {
   return (
     <div>
       About
-      <User name="Mukesh" />
-      <UserClass name="Mukesh from About" location="Chennai" />
+      <UserClass />
     </div>
   );
 };
