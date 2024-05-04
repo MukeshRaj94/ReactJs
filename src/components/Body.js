@@ -14,7 +14,7 @@ const Body = () => {
     fetchData();
     console.log("use effect");
   }, []);
-  console.log("render before");
+  console.log("render before", listOfRestaurants);
 
   const fetchData = async () => {
     const data = await fetch(
@@ -44,17 +44,17 @@ const Body = () => {
 
   return (
     <div className="body">
-      <div className="filter-res">
+      <div className="filter-res m-4 p-4">
         <input
           type="text"
-          className="search-box"
+          className="border border-solid border-black"
           value={searchTxt}
           onChange={(e) => {
             setSearchTxt(e.target.value);
           }}
         />
         <button
-          className="search-btn"
+          className="m-4 px-4 bg-green-200 rounded-lg"
           onClick={() => {
             const filterRestaurant1 = filterRestaurant.filter((res) =>
               res.info.name.toLowerCase().includes(searchTxt.toLowerCase())
@@ -65,7 +65,7 @@ const Body = () => {
           Search
         </button>
         <button
-          className="top-rated-btn"
+          className="px-4 bg-green-400 rounded-lg"
           onClick={() => {
             console.log("Button Clicked");
             const filteredList = listOfRestaurants.filter(
@@ -77,7 +77,7 @@ const Body = () => {
           Top Rated Restaurants
         </button>
       </div>
-      <div className="res-container">
+      <div className="flex flex-wrap rounded-lg">
         {listOfRestaurants.map((restaurant) => (
           <Link
             key={restaurant.info.id}
