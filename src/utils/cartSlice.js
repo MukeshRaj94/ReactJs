@@ -2,9 +2,8 @@ import { createSlice, isAction } from "@reduxjs/toolkit";
 
 const cartSlice = createSlice({
   name: "cart",
-  initialState: {
-    items: [],
-  },
+  initialState: { items: [] },
+
   //reducers function which has actions as addItem, removeItem, clearCart
   reducers: {
     addItem: (state, action) => {

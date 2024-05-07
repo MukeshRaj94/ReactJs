@@ -14,6 +14,7 @@ const Header = () => {
 
   //Subscribing to the store
   const cartItems = useSelector((store) => store.cart.items);
+  console.log("cartItems::" + cartItems);
   //useSelector((store) => store.cart.items);
   return (
     <div className="flex justify-between bg-pink-50 shadow-lg">
@@ -37,7 +38,9 @@ const Header = () => {
           <li className="p-4 m-4">
             <Link to="/grocery"> Grocery</Link>
           </li>
-          <li className="p-4 m-4">Cart:({cartItems.length} items)</li>
+          <li className="p-4 m-4">
+            <Link to="/cart"> Cart:{cartItems.length} items</Link>
+          </li>
           <button
             className="p-4 m-4 bg-gray-50 rounded-lg"
             onClick={() => {
