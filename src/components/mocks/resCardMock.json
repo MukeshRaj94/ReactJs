@@ -1,0 +1,62 @@
+{
+    "info": {
+        "id": "397254",
+        "name": "Kwality Walls Frozen Dessert and Ice Cream Shop",
+        "cloudinaryImageId": "hvpfo82djgt8kng3vjxd",
+        "locality": "Shollinganallur",
+        "areaName": "OMR Navalur",
+        "costForTwo": "₹300 for two",
+        "cuisines": [
+            "Desserts",
+            "Ice Cream",
+            "Ice Cream Cakes"
+        ],
+        "avgRating": 4.6,
+        "veg": true,
+        "parentId": "582",
+        "avgRatingString": "4.6",
+        "totalRatingsString": "500+",
+        "sla": {
+            "deliveryTime": 27,
+            "lastMileTravel": 2.8,
+            "serviceability": "SERVICEABLE",
+            "slaString": "25-30 mins",
+            "lastMileTravelString": "2.8 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "nextCloseTime": "2024-05-08 23:30:00",
+            "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+            "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+            }
+        },
+        "aggregatedDiscountInfoV3": {
+            "header": "50% OFF",
+            "subHeader": "UPTO ₹100"
+        },
+        "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+            }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {},
+    "cta": {
+        "link": "https://www.swiggy.com/restaurants/kwality-walls-frozen-dessert-and-ice-cream-shop-shollinganallur-omr-navalur-chennai-397254",
+        "type": "WEBLINK"
+    }
+}
